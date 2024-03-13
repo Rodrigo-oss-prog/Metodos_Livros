@@ -8,7 +8,7 @@ public void reajustePreco(double porcentagem){
 
     }
 ````
-Chamando na classe Main:
+Reajustando na classe Main:
 ````
 livroConstSetgets[0].reajustePreco(0.10);
 ````
@@ -25,3 +25,7 @@ public static void listarLivros(Livro_const_setget[] livroConstSetgets){
 
         }
 ````
+Listando na classe Main:
+`````
+Livro_const_setget.listarLivros(livroConstSetgets);
+`````
